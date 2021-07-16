@@ -844,4 +844,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Add all Nortical UI repos -->
+  <include name="snippets/nortical.xml" />
+
 </manifest>
