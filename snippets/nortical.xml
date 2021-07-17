@@ -5,6 +5,9 @@
 	  fetch="https://chiakijudge.site/Nortical-UI"
           revision="11-R" />
 
+  <!-- General -->
+  <project path="art" name="platform_art" remote="nortical" />
+
   <!-- Sepolicy -->
   <project path="device/custom/sepolicy" name="platform_device_custom_sepolicy" remote="nortical" />
 

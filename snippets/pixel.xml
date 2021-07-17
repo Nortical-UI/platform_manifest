@@ -108,7 +108,6 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pixel" />
 
   <!-- General repos -->
-  <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
