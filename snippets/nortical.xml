@@ -7,6 +7,7 @@
 
   <!-- General -->
   <project path="art" name="platform_art" remote="nortical" />
+  <project path="packages/apps/GCamGOPrebuilt" name="platform_packages_apps_GCamGOPrebuilt" remote="nortical" />
 
   <!-- Sepolicy -->
   <project path="device/custom/sepolicy" name="platform_device_custom_sepolicy" remote="nortical" />
@@ -37,5 +38,8 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="nortical" />
+
+  <!-- System -->
+  <project path="system/core" name="platform_system_core" remote="nortical" />
 
 </manifest>
