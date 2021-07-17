@@ -11,7 +11,7 @@
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="nortical" />
 
-  <!-- General repos -->
+  <!-- Build -->
   <project path="build/make" name="platform_build" remote="nortical">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -25,7 +25,12 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- Vendor -->
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="nortical" />
+
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="nortical" />
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="nortical" />
