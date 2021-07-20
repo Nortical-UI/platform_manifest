@@ -8,12 +8,14 @@
   <!-- General -->
   <project path="art" name="platform_art" remote="nortical" />
   <project path="packages/apps/GCamGOPrebuilt" name="platform_packages_apps_GCamGOPrebuilt" remote="nortical" />
+  <project path="libcore" name="platform_libcore" remote="nortical" />
 
   <!-- Sepolicy -->
   <project path="device/custom/sepolicy" name="platform_device_custom_sepolicy" remote="nortical" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="nortical" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="nortical" />
 
   <!-- Build -->
   <project path="build/make" name="platform_build" remote="nortical">
@@ -33,6 +35,10 @@
   <!-- Vendor -->
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="nortical" />
   <project path="vendor/gapps" name="platform_vendor_gapps" remote="nortical" />
+
+  <!-- External -->
+  <project path="external/faceunlock" name="platform_external_faceunlock" remote="nortical" />
+
   <!-- Recovery -->
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="nortical" />
 
@@ -43,5 +49,5 @@
 
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="nortical" />
-
+  <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="nortical" />
 </manifest>
