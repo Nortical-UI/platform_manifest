@@ -32,7 +32,7 @@
 
   <!-- Vendor -->
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="nortical" />
-
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="nortical" />
   <!-- Recovery -->
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="nortical" />
 
