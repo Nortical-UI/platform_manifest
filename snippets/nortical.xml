@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="nortical"
-	  fetch="https://chiakijudge.site/Nortical-UI"
+	  fetch="https://gitlab.com/Nortical-UI"
           revision="11-R" />
 
   <!-- General -->
