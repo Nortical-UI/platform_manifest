@@ -1105,5 +1105,6 @@
 
   <!-- Nortical Changes -->
   <include name="snippets/nortical.xml" />
+  <include name="snippets/remove.xml" />
 
 </manifest>
