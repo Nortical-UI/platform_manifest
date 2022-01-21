@@ -5,4 +5,20 @@
 	  revision="12-S"
 	  fetch="https://github.com/Nortical-UI/" />
 
+  <!-- Build -->
+  <project path="art" name="platform_art" remote="nortical" />
+  <project path="bionic" name="platform_bionic" remote="nortical" />
+  <project path="build/make" name="platform_build" remote="nortical">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="nortical" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 </manifest>
