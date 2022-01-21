@@ -53,13 +53,6 @@
    <remove-project name="device/google/raviole" />
    <remove-project name="device/google/raviole-kernel" />
 
-   <!-- External -->
-   <remove-project name="platform/external/arm-optimized-routines" />
-   <remove-project name="platform/external/jemalloc_new" />
-   <remove-project name="platform/external/tinycompress" />
-   <remove-project name="platform/external/selinux" />
-   <remove-project name="platform/external/chromium-webview" />
-
    <!-- Framework -->
    <remove-project name="platform/frameworks/base" />
    <remove-project name="platform/frameworks/av" />

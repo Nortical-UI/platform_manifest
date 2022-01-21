@@ -4,6 +4,16 @@
   <remote name="nortical"
 	  revision="12-S"
 	  fetch="https://github.com/Nortical-UI/" />
+  
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="nortical" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="nortical" />
+
+  <!-- System Repos -->
+  <project path="system/core" name="platform_system_core" remote="nortical" />
+  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="nortical" />
+  <project path="system/vold" name="platform_system_vold" remote="nortical" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="nortical" />
 
   <!-- Build -->
   <project path="art" name="platform_art" remote="nortical" />
