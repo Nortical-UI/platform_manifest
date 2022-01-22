@@ -1104,8 +1104,8 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- Nortical Changes -->
-  <include name="snippets/nortical.xml" />
   <include name="snippets/remove.xml" />
+  <include name="snippets/nortical.xml" />
   <include name="snippets/external.xml" />
 
 </manifest>
