@@ -53,43 +53,10 @@
    <remove-project name="device/google/raviole" />
    <remove-project name="device/google/raviole-kernel" />
 
-   <!-- Framework -->
-   <remove-project name="platform/frameworks/base" />
-   <remove-project name="platform/frameworks/av" />
-   <remove-project name="platform/frameworks/native" />
-
-   <!-- Hardware -->
-   <remove-project name="platform/hardware/libhardware" />
-
-   <remove-project name="platform/hardware/qcom/msm8960" />
-   <remove-project name="platform/hardware/qcom/msm8994" />
-   <remove-project name="platform/hardware/qcom/msm8996" />
-   <remove-project name="platform/hardware/qcom/msm8x26" />
-   <remove-project name="platform/hardware/qcom/msm8x27" />
-   <remove-project name="platform/hardware/qcom/msm8x84" />
-   <remove-project name="platform/hardware/qcom/msm8x09" />
-   <remove-project name="platform/hardware/qcom/sdm845/bt" />
-   <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
-   <remove-project name="platform/hardware/qcom/sdm845/display" />
-   <remove-project name="platform/hardware/qcom/sdm845/gps" />
-   <remove-project name="platform/hardware/qcom/sdm845/media" />
-   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
-   <remove-project name="platform/hardware/qcom/sdm845/vr" />
-
-   <!-- Packages -->
-   <remove-project name="platform/packages/apps/Launcher3" />
-   <remove-project name="platform/packages/apps/Settings" />
-   <remove-project name="platform/packages/apps/SettingsIntelligence" />
-   <remove-project name="platform/packages/apps/ThemePicker" />
-   <remove-project name="platform/packages/apps/WallpaperPicker2" />
-
-   <!-- Providers -->
-   <remove-project name="platform/packages/providers/DownloadProvider" />
-
-    <!-- System -->
+   <!-- System -->
    <remove-project name="platform/system/core" />
    <remove-project name="platform/system/memory/lmkd" />
    <remove-project name="platform/system/vold" />
    <remove-project name="platform/system/sepolicy" />
 
- </manifest>
+</manifest>
