@@ -20,6 +20,7 @@
   <project path="external/selinux" name="platform_external_selinux" remote="nortical" />
   <project path="external/colorkt" name="platform_external_colorkt" remote="nortical" />
   <project path="external/themelib" name="platform_external_themelib" remote="nortical" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="nortical" />
   
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="nortical" />
