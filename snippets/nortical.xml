@@ -5,6 +5,15 @@
 	  revision="12-S"
 	  fetch="https://github.com/Nortical-UI/" />
   
+  <!-- External -->
+  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="nortical" />
+  <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="nortical" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="nortical" />
+  <project path="external/tinyxml" name="platform_external_tinyxml" remote="nortical" />
+  <project path="external/selinux" name="platform_external_selinux" remote="nortical" />
+  <project path="external/colorkt" name="platform_external_colorkt" remote="nortical" />
+  <project path="external/themelib" name="platform_external_themelib" remote="nortical" />
+  
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="nortical" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="nortical" />
