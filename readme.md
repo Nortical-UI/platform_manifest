@@ -33,4 +33,4 @@ $ . build/envsetup.sh
 $ lunch nortical_$device-userdebug
 
 # Build!
-$ mka bacon -j$(nproc --all)
+$ make konata -j$(nproc --all)
