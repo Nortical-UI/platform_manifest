@@ -32,4 +32,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- Vendor -->
+  <project path="vendor/nortical" name="platform_vendor_nortical" remote="nortical" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="nortical" />
 </manifest>
