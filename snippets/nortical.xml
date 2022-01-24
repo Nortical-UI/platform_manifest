@@ -8,6 +8,7 @@
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="nortical" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="nortical" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="nortical" />
 
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="nortical" />
