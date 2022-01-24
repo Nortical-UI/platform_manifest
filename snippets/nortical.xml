@@ -4,6 +4,13 @@
   <remote name="nortical"
 	  revision="12-S"
 	  fetch="https://github.com/Nortical-UI/" />
+	  
+  <!-- CAF -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nortical" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="nortical" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="nortical" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="nortical" />
+  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="nortical" />  
   
   <!-- External -->
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="nortical" />
@@ -44,9 +51,9 @@
 
   <!-- Vendor -->
   <project path="vendor/nortical" name="platform_vendor_nortical" remote="nortical" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="nortical" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="nortical" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="nortical" />
 
 </manifest>
