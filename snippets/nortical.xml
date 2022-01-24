@@ -60,4 +60,7 @@
   <!-- Proton -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="platform_prebuilts_clang_host_linux-x86_clang-proton" remote="nortical" clone-depth="1"/> 
 
+  <!-- Prebuilt -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="nortical" />
+
 </manifest>

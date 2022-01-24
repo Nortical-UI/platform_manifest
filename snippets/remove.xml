@@ -27,7 +27,8 @@
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/bramble" />
-  <remove-project name="device/google/bramble-sepolicy" />   <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/bramble-sepolicy" />
+  <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
@@ -69,4 +70,8 @@
   
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
+
+  <!-- Prebuilt -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+
 </manifest>
