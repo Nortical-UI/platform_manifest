@@ -74,4 +74,11 @@
   <!-- Prebuilt -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
 </manifest>

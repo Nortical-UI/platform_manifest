@@ -27,6 +27,13 @@
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="nortical" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="nortical" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="nortical" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="nortical" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="nortical" />
+
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="nortical" />
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="nortical" />
