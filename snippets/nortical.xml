@@ -44,6 +44,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="nortical" />
+  <project path="packages/apps/Kyokai" name="platform_packages_apps_Kyokai" remote="nortical" />
 
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="nortical" />

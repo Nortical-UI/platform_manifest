@@ -76,6 +76,7 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Launcher3" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
