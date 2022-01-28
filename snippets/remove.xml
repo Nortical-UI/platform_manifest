@@ -77,6 +77,7 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
