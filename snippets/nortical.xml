@@ -48,6 +48,7 @@
   <project path="packages/apps/Gboard" name="platform_packages_apps_Gboard" remote="nortical" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="nortical" />
   <project path="packages/apps/Bromite" name="platform_packages_apps_Bromite" remote="nortical" />
+  <project path="packages/apps/Calculator" name="platform_packages_apps_Calculator" remote="nortical" />
 
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="nortical" />
