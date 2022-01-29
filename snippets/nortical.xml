@@ -33,7 +33,9 @@
   <project path="external/themelib" name="platform_external_themelib" remote="nortical" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="nortical" />
   <project path="external/mksh" name="platform_external_mksh" remote="nortical" />
+	  
   <!-- Device -->
+  <project path="device/nortical/sepolicy" name="platform_device_nortical_sepolicy" remote="nortical" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="nortical" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="nortical" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="nortical" />
