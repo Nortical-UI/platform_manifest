@@ -79,6 +79,7 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Contacts" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
