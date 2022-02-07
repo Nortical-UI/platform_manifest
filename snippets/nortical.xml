@@ -48,6 +48,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="nortical" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="nortical" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="nortical" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="nortical" />
 
