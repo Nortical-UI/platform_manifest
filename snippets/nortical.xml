@@ -62,6 +62,7 @@
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="nortical" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="nortical" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="nortical" />
+  <project path="packages/apps/Share" name="platform_packages_apps_Share" remote="nortical" />
 
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="nortical" />
