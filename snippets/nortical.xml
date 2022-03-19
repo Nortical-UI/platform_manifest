@@ -9,6 +9,10 @@
 	  revision="12-S"
 	  fetch="https://gitlab.com/Nortical-UI/" />
 
+  <remote name="nortical-new"
+	  revision="12.1-S"
+	  fetch="https://github.com/Nortical-UI/" />
+
   <!-- CAF -->
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nortical" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="nortical" />
@@ -31,7 +35,7 @@
   <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom-caf_sm8250_media" groups="qcom,pdk-qcom" remote="nortical" />
 
   <!-- External -->
-  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="nortical" />
+  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="nortical-new" />
   <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="nortical" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="nortical" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="nortical" />
@@ -48,12 +52,12 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="nortical" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="platform_frameworks_av" remote="nortical" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="nortical" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="nortical" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="nortical-new" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="nortical-new" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="nortical-new" />
 
   <!-- Packages -->
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="nortical" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="nortical-new" />
   <project path="packages/apps/Kyokai" name="platform_packages_apps_Kyokai" remote="nortical" />
   <project path="packages/apps/Gboard" name="platform_packages_apps_Gboard" remote="nortical" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="nortical" />
@@ -65,15 +69,15 @@
   <project path="packages/apps/Share" name="platform_packages_apps_Share" remote="nortical" />
 
   <!-- System Repos -->
-  <project path="system/core" name="platform_system_core" remote="nortical" />
-  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="nortical" />
-  <project path="system/vold" name="platform_system_vold" remote="nortical" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="nortical" />
+  <project path="system/core" name="platform_system_core" remote="nortical-new" />
+  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="nortical-new" />
+  <project path="system/vold" name="platform_system_vold" remote="nortical-new" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="nortical-new" />
 
   <!-- Build -->
-  <project path="art" name="platform_art" remote="nortical" />
-  <project path="bionic" name="platform_bionic" remote="nortical" />
-  <project path="build/make" name="platform_build" remote="nortical">
+  <project path="art" name="platform_art" remote="nortical-new" />
+  <project path="bionic" name="platform_bionic" remote="nortical-new" />
+  <project path="build/make" name="platform_build" remote="nortical-new">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -82,17 +86,17 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="nortical" >
+  <project path="build/soong" name="platform_build_soong" remote="nortical-new" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- Vendor -->
-  <project path="vendor/nortical" name="platform_vendor_nortical" remote="nortical" />
+  <project path="vendor/nortical" name="platform_vendor_nortical" remote="nortical-new" />
   <project path="vendor/gapps" name="platform_vendor_gapps" remote="nortical-gitlab" clone-depth="1" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="nortical" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="nortical-new" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="nortical" />
 
   <!-- Proton -->
